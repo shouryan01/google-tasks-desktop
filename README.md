@@ -21,7 +21,7 @@ This is no comparison. An optimized-native M1 Mac app vs Google Chrome? Not fair
 <img width="1072" alt="Screen Shot 2023-06-03 at 6 45 55 PM" src="https://github.com/shouryan01/Google-Tasks-Desktop/assets/32345320/c21736ae-c410-46c7-92c5-c99f5c531c3d">
 
 
-## Screenshot
+## Demo Screenshot
 
 <img width="1512" alt="Screen Shot 2023-05-31 at 9 58 13 PM" src="https://github.com/shouryan01/Google-Tasks-Desktop/assets/32345320/bee79572-7080-4730-aaa0-fb9874b98fba">
 
