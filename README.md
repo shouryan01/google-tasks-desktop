@@ -4,6 +4,10 @@ I am a heavy user of Google Tasks. I love the easy integration between all the G
 
 <img width="1624" alt="Screen Shot 2023-06-03 at 6 50 56 PM" src="https://github.com/shouryan01/Google-Tasks-Desktop/assets/32345320/74de30d7-fb29-46cc-bb9b-7116d5cd9eaa">
 
+## Install
+
+I have not signed this app using Certificates from Apple Developer Program. Due to this, once you install the app, your Mac will scream at you (rightfully) because the app comes from an unidentified developer. [Here is a tutorial video on how you can get past this]([url](https://youtu.be/TV93IRDu9No)).
+
 ## Resource Use
 
 This is no comparison. An optimized-native M1 Mac app vs Google Chrome? Not fair. To make it more fair, Google Chrome is an unused browser (I use Firefox!). EVEN then, Google Tasks running as a sidebar app in Gmail uses 10x more memory and 6x more CPU than Google Tasks Desktop.
@@ -27,7 +31,7 @@ This is no comparison. An optimized-native M1 Mac app vs Google Chrome? Not fair
 
 That's it! The app is a no-nonsense wrapper around Google Tasks, it just works! This implementation meets all my needs and I am satisfied with it. However, there are some notable missing features that others might want
 
-### If this repo gets more than 100 stars, I'll work on the following 
+### If this repo gets more than 100 stars, I'll work on the following:
 
 - Switching between more than one account and sign out of current account.
 - Dark mode.
