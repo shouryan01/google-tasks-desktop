@@ -25,9 +25,12 @@ This is no comparison. An optimized-native M1 Mac app vs Google Chrome? Not fair
 
 <img width="1512" alt="Screen Shot 2023-05-31 at 9 58 13 PM" src="https://github.com/shouryan01/Google-Tasks-Desktop/assets/32345320/bee79572-7080-4730-aaa0-fb9874b98fba">
 
-That's it! The app is a no-nonsense wrapper around Google Tasks, it just works! This implementation meets all my needs and I am satisfied with it. However, there are some notable missing features that others might want:
-
-- Switching between more than one account and sign out of current account.
-- 
+That's it! The app is a no-nonsense wrapper around Google Tasks, it just works! This implementation meets all my needs and I am satisfied with it. However, there are some notable missing features that others might want
 
 ### If this repo gets more than 100 stars, I'll work on the following 
+
+- Switching between more than one account and sign out of current account.
+- Dark mode.
+- System notifications for upcoming tasks.
+- App signed using Apple Developer Program.
+- App available from Mac App Store.
