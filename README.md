@@ -6,7 +6,7 @@ I am a heavy user of Google Tasks. I love the easy integration between all the G
 
 ## Install
 
-I have not signed this app using Certificates from Apple Developer Program. Due to this, once you install the app, your Mac will scream at you (rightfully) because the app comes from an unidentified developer. [Here is a tutorial video]([url](https://youtu.be/TV93IRDu9No))
+I have not signed this app using Certificates from Apple Developer Program. Due to this, once you install the app, your Mac will scream at you (rightfully) because the app comes from an unidentified developer. Here is a tutorial video: https://youtu.be/TV93IRDu9No
 
 ## Resource Use
 
