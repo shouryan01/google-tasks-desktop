@@ -6,7 +6,7 @@ I am a heavy user of Google Tasks. I love the easy integration between all the G
 
 ## Resource Use
 
-This is no comparison. An optimized-native M1 Mac app vs Google Chrome? Not fair. To make it more fair, Google Chrome is an unused browser (I use Firefox!). EVEN then, Google Tasks running as a sidebar app in Gmail uses 10x more memory and 6x more CPU than Google Tasks Desktop.
+This is no comparison. An optimized-native M1 Mac app vs Google Chrome? Not fair. To make it more fair, Google Chrome is an unused browser (I use Firefox!). EVEN then, Google Tasks running as a sidebar app in Gmail uses 10x more memory and 33x more CPU than Google Tasks Desktop.
 
 ### CPU Comparison
 
