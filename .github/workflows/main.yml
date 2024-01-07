@@ -1,4 +1,4 @@
-1name: 'publish'
+name: 'publish'
 
 # This will trigger the action on each push to the `release` branch.
 on:
