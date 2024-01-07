@@ -1,4 +1,4 @@
-# Google-Tasks-Desktop
+# google-tasks-desktop
 
 I am a heavy user of Google Tasks. I love the easy integration between all the Google services such as Gmail, Calendar and Keep. The mobile app is also excellent. However, Google forces you to use Google Tasks in this terrible interface:
 
