@@ -1,5 +1,7 @@
 # google-tasks-desktop
 
+[![Publish](https://github.com/shouryan01/google-tasks-desktop/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/shouryan01/google-tasks-desktop/actions/workflows/main.yml)
+
 I am a heavy user of Google Tasks. I love the easy integration between all the Google services such as Gmail, Calendar and Keep. The mobile app is also excellent. However, Google forces you to use Google Tasks in this terrible interface:
 
 <img width="1624" alt="Screen Shot 2023-06-03 at 6 50 56 PM" src="https://github.com/shouryan01/Google-Tasks-Desktop/assets/32345320/74de30d7-fb29-46cc-bb9b-7116d5cd9eaa">
