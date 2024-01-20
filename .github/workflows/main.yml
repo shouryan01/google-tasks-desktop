@@ -1,4 +1,4 @@
-name: 'Publish'
+name: "Publish"
 on:
   push:
     branches:
@@ -18,10 +18,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2.4.0
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v1
         with:
-          version: 8.14.0
+          bun-version: 1.0.22
 
       - name: Rust setup
         uses: dtolnay/rust-toolchain@stable
@@ -29,21 +29,16 @@ jobs:
       - name: Rust cache
         uses: swatinem/rust-cache@v2
         with:
-          workspaces: './src-tauri -> target'
+          workspaces: "./src-tauri -> target"
 
       - name: Sync node version and setup cache
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: 'pnpm'
+          cache: "bun"
 
       - name: Install frontend dependencies
-        run: pnpm install
-
-      - name: Debug Certificate
-        run: |
-          echo "$APPLE_CERTIFICATE" > certificate.pem
-          cat certificate.pem
+        run: bun install
 
       - name: Build the app
         uses: tauri-apps/tauri-action@v0
@@ -57,12 +52,7 @@ jobs:
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
         with:
           tagName: app-v__VERSION__
-          releaseName: 'App v__VERSION__'
-          releaseBody: 'See the assets to download this version and install.'
+          releaseName: "App v__VERSION__"
+          releaseBody: "See the assets to download this version and install."
           releaseDraft: true
           prerelease: false
-          args: --verbose
-      - name: Debug Certificate
-        run: |
-          echo "$APPLE_CERTIFICATE" > certificate.pem
-          cat certificate.pem
