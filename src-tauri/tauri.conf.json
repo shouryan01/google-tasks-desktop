@@ -1,13 +1,14 @@
 {
   "build": {
-    "beforeDevCommand": "pnpm dev",
-    "beforeBuildCommand": "pnpm build",
-    "devPath": "http://localhost:1420",
-    "distDir": "../dist"
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "../src",
+    "distDir": "../src",
+    "withGlobalTauri": true
   },
   "package": {
     "productName": "Google Tasks",
-    "version": "0.1.1"
+    "version": "0.1.3"
   },
   "tauri": {
     "allowlist": {
