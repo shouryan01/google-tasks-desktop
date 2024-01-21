@@ -39,6 +39,9 @@ jobs:
       - name: Install frontend dependencies
         run: pnpm install
 
+      - name: Install aarch64-apple-darwin target
+        run: rustup target add aarch64-apple-darwin
+
       - name: Build MacOS x64
         if: matrix.platform == 'macos-latest'
         uses: tauri-apps/tauri-action@v0
