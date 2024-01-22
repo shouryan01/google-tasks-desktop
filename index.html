@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Project Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #screenshot {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        #placeholder-text {
+            margin: 20px 0;
+            color: #777;
+        }
+
+        .download-buttons {
+            margin-top: 30px;
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .download-button:hover {
+            background-color: #0069D9;
+        }
+
+        .dropdown {
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 15px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-item {
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+            color: #333;
+            border-radius: 20px;
+        }
+
+        .dropdown-item:hover {
+            background-color: #dedede; /* Hover background color */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Google Tasks Desktop<img id="screenshot" src="./src-tauri/icons/icon.png" alt="Project Screenshot" width="4%" height="4%"></h1>
+
+
+    <img id="screenshot" src="./src-tauri/icons/demo.png" alt="Project Screenshot" width="46%" height="20%">
+
+    <div id="placeholder-text">
+        <p>Replace this text with a brief description of your project.</p>
+    </div>
+
+    <div class="download-buttons">
+        <div class="dropdown">
+            <a class="download-button"> Download for Mac</a>
+            <div class="dropdown-content">
+                <a class="dropdown-item" href="https://github.com/shouryan01/google-tasks-desktop/releases/download/app-v0.1.3/Google.Tasks_0.1.3_aarch64.dmg"> Apple Silicon</a>
+                <a class="dropdown-item" href="https://github.com/shouryan01/google-tasks-desktop/releases/download/app-v0.1.3/Google.Tasks_0.1.3_x64.dmg">🤖 x86 Architecture</a>
+            </div>
+        </div>
+        <a class="download-button" href="https://github.com/shouryan01/google-tasks-desktop/releases/download/app-v0.1.3/Google.Tasks_0.1.3_x64_en-US.msi">Download for Windows</a>
+    </div>
+
+</body>
+</html>
