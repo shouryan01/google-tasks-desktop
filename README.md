@@ -1,4 +1,4 @@
-# google-tasks-desktop
+# Google Tasks Desktop
 
 [![Publish](https://github.com/shouryan01/google-tasks-desktop/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/shouryan01/google-tasks-desktop/actions/workflows/main.yml)
 
