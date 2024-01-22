@@ -2,7 +2,7 @@ name: "Publish"
 on:
   push:
     branches:
-      - main
+      - main1
 
 jobs:
   publish-tauri:
@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [macos-latest]
+        platform: [macos-latest, windows-latest]
     runs-on: ${{ matrix.platform }}
 
     steps:
@@ -79,3 +79,18 @@ jobs:
           releaseDraft: true
           prerelease: false
           args: --target aarch64-apple-darwin
+
+      - name: Build Windows
+        if: matrix.platform == 'windows-latest'
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tagName: app-v__VERSION__
+          releaseName: "windows_x64_v__VERSION__"
+          releaseBody: "See the assets to download this version and install."
+          releaseDraft: true
+          prerelease: false
+          args: --target aarch64-apple-darwin
+
+      
