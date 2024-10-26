@@ -25,4 +25,5 @@ This is no comparison. An optimized-native M1 Mac app vs Google Chrome? Not fair
 
 <img width="1072" alt="Screen Shot 2023-06-03 at 6 45 55 PM" src="https://github.com/shouryan01/Google-Tasks-Desktop/assets/32345320/c21736ae-c410-46c7-92c5-c99f5c531c3d">
 
-That's it! The app is a no-nonsense wrapper around Google Tasks, it just works! This implementation meets all my needs and I am satisfied with it. If you find it useful and would want more features, please raise an issue!
+That's it! The app is a no-nonsense wrapper around Google Tasks, it just works! This implementation meets all my needs and I am satisfied with it. 
+If you find it useful and would want more features, please raise a PR! Issues work too, but I'll be resolving those more slowly.
