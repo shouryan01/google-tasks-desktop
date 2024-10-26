@@ -1,8 +1,7 @@
 name: "Publish"
 on:
   push:
-    branches:
-      - change_to_main_if_changes_made
+  workflow_dispatch:
 
 jobs:
   publish-tauri:
