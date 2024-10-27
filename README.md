@@ -2,6 +2,8 @@
 
 [![Publish](https://github.com/shouryan01/google-tasks-desktop/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/shouryan01/google-tasks-desktop/actions/workflows/main.yml)
 
+(NOTE: The current build is failing after upgrading to Tauri v2. This is because my Apple Developer account expired so if I successfully build, I will lose Apple account signing. There is no functionality change in Tauri v2 so I let it be)
+
 ## Demo Screenshot
 <img width="1512" alt="Screen Shot 2023-05-31 at 9 58 13 PM" src="https://github.com/shouryan01/Google-Tasks-Desktop/assets/32345320/bee79572-7080-4730-aaa0-fb9874b98fba">
 
